@@ -54,7 +54,7 @@ footer{
   display: grid;
   background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 100px;
+ grid-gap: 101px;
  align-items:start;
 }
 
@@ -62,7 +62,7 @@ footer{
   display: grid;
   background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 100px;
+ grid-gap: 101px;
  align-items:start;
         }
 
@@ -74,7 +74,7 @@ footer{
   background-color: none;
   grid-template-columns: auto auto;
   text-align: center;
-  grid-gap: 20px;
+  grid-gap: 21px;
     }
 
 #grid6{

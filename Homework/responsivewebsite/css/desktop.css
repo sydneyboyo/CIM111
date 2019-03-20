@@ -54,7 +54,7 @@ footer{
   display: grid;
   background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 101px;
+ grid-gap: 100px;
  align-items:start;
 }
 
@@ -62,7 +62,7 @@ footer{
   display: grid;
   background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 101px;
+ grid-gap: 100px;
  align-items:start;
         }
 
@@ -74,7 +74,7 @@ footer{
   background-color: none;
   grid-template-columns: auto auto;
   text-align: center;
-  grid-gap: 21px;
+  grid-gap: 20px;
     }
 
 #grid6{
@@ -84,14 +84,14 @@ footer{
   background-color: none;
   grid-template-columns: auto auto;
   text-align: center;
-    }
+  }
 
 
   @media only and screen and (max-width: 680px){
 
     #grid6{
     display: grid;
-    background-color: pink;
+    background-color: none;
     grid-template-columns: auto;
     text-align: center;
     }

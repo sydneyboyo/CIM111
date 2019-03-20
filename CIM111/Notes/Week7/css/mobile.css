@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+section{
+  width:100%;
+  height: auto;
+  background-color: purple;
+  margin-bottom: 10px;
+}
+#grid1{
+  display: block;
+  <!--grid-template-rows: 200px;-->
+<!--grid-template-columns: 300px 300px 300px;-->
+
+grid-template-row: 1fr;
+gride-template-columns: 2fr 1fr 1fr;
+}
+
+#grid2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imageGallery{
+  width: 80%;
+  margin: 0 auto;
+}

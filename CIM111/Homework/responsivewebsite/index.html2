@@ -1,0 +1,221 @@
+<h4> Center Back: Sergio Ramos </h4>
+
+<h4> Center Back: Raphael Varane </h4>
+
+<h4> Left Back: Benjamin Mendy </h4>
+
+<h4> Right Back: Dani Alves </h4>
+
+<p> Country: Spain Club: Real Madrid</p>
+<p> Country: France Club: Real Madrid</p>
+<p> Country: France Club: Manchester City </p>
+<p> Country: Brazil Club: PSG </p>
+
+<img src="images/ramos.jpg" width="250">
+<img src="images/raph.jpg" width="250">
+<img src="images/mendy.jpg" width="250">
+<img src="images/dani.jpg" width="250">
+
+<p> Able to score important goals when needed, very consistent at a high level.
+  Won Champions League four times with Real Madrid and 2010 World Cup with Spain. </p>
+<p> Incredible performance at the 2018 World Cup. Has great mobility and timing. Won Champions League four times with Real Madrid and the 2018 World Cup with France. </p>
+<p> Can easily shift into an attacking position with a quick defensive recovery. Has tremendous speed, power, and accuracy.
+  Won the 2018 World Cup with France.</p>
+<p> Has developed technical skills and is known for his quick pace. Played a significant role in 3 of Barcelona’s Champions League titles and led Brazil’s defense in their 2007 Copa America win.</p>
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css" media="only screen and (min-width: 480px)">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-width:480px)">
+
+
+<title> responsive website </title>
+
+  <style>
+
+    </style>
+
+</head>
+
+<body>
+
+  <header>
+
+<h2> Fantasy Soccer Team Using Current Players </h2>
+<nav>
+  <ul>
+    <li> <a href="#">Goalkeeper </a> </li>
+    <li> <a href="#">Defenders</a> </li>
+    <li> <a href="#">Midfielders </a> </li>
+    <li> <a href="#">Forwards </a> </li>
+  </ul>
+
+  </header>
+
+  <main>
+
+
+<section>
+<h1> Defenders </h1>
+  <div class="grid1">
+<h2> Goalkeeper: Thibaut Courtois </h2>
+<h5>
+Country: Belgium
+  <br>
+Team: Real Madrid
+</h5>
+
+  <h2> Center Back: Sergio Ramos </h2>
+<h5>
+Country: Spain
+  <br>
+Team: Real Madrid
+</h5>
+
+<h2> Center Back: Raphael Varane </h2>
+<h5>
+Country: France
+  <br>
+Team: Real Madrid
+</h5>
+
+<h2> Left Back: Benjamin Mendy </h2>
+<h5>
+Country: France
+  <br>
+Team: Manchester City
+</h5>
+</div>
+</section>
+
+
+<section>
+  <h1> Midfielders </h1>
+<div class="grid2">
+<h2> Center Midfield: Luka Modric </h2>
+<h5>
+Country: Croatia
+  <br>
+Team: Real Madrid
+</h5>
+
+<h2> Attacking Midfield: Kevin De Bruyne </h2>
+<h5>
+Country: Belgium
+  <br>
+Team: Manchester City
+</h5>
+</div>
+</section>
+
+
+
+<section>
+  <h1> Forwards </h1>
+<div class="grid3">
+<h2> Winger: Raheem Sterling </h2>
+<h5>
+  Country: England
+  <br>
+  Team: Manchester City
+</h5>
+
+<h2> Winger: Sadio Mane </h2>
+<h5>
+  Country: Senegal
+  <br>
+  Team: Liverpool
+</h5>
+
+<h2> Forward: Lionel Messi </h2>
+<h5>
+  Country: Argentina
+  <br>
+Team: Barcelona
+</h5>
+
+<h2> Striker: Sergio Aguero </h2>
+<h5>
+  Country: Argentina
+  <br>
+Team: Manchester City
+</h5>
+</div>
+</section>
+
+<section id="grid4">
+
+  <div class="picsandwords">
+  <img src="images/courtois.jpg" width="250">
+<p> Most recently won the Golden Glove at the 2018 World Cup and was named the Best FIFA Goalkeeper in 2018.</p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/ramos.jpg" width="250">
+  <p> Able to score important goals when needed, very consistent at a high level.
+    Won Champions League four times with Real Madrid and 2010 World Cup with Spain. </p>
+  </div>
+
+  <div class="picsandwords">
+  <img src="images/raph.jpg" width="250">
+  <p> Incredible performance at the 2018 World Cup. Has great mobility and timing. Won Champions League four times with Real Madrid and the 2018 World Cup with France. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/mendy.jpg" width="250">
+  <p> Can easily shift into an attacking position with a quick defensive recovery. Has tremendous speed, power, and accuracy.
+    Won the 2018 World Cup with France. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/modric.jpg" width="250">
+  <p> Smooth in transitions, knows how to set the pace, amd plays a fundamental role in Real Madrid's and Croatia's success.
+    Has won four Champions Leagues with Real Madrid, was a runner-up at the 2018 World Cup, won the 2018 Ballon d'Or, and is the Best FIFA Men's Player for 2018. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/kevin.jpg" width="250">
+  <p> Excellent playmaking abilities, creates opportunities throughout matches, moves with a quick and accurate pace...was the top assist provider at the 2018 World Cup. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/sterling.jpg" width="250">
+  <p> Assertive and well rounded payer, moves with speed, creates and uses open space.
+    Was the 2014 Golden Boy and helped Manchester City win the Premier League in the 2017-18 season. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/mane.jpg" width="250">
+  <p> Creates a tremendously fast attacking pace and takes advantage of open space by creating scoring opportunities.
+    Helped Liverpool reach the Champions League Final in the 2017-18 season. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/messi.jpg" width="250">
+  <p> Enough Said. </p>
+</div>
+
+<div class="picsandwords">
+  <img src="images/sergio.jpg" width="250">
+  <p> Can score from anywhere, against anyone. Finishes scoring opportunities with ease and has scored over 200 goals for club. Was a FIFA World Cup runner-up in 2014, Copa America runner-up in 2015, and won the Premier League Golden Boot in the 2014-15 season.</p>
+</div>
+
+</section>
+
+
+
+</main>
+
+  <footer>  <h3> Created By: Sydney Boyo</h3> </footer>
+
+  </body>
+
+</html>

@@ -1,0 +1,50 @@
+body{
+  background-color: purple;
+font-family: Slabo, sans-serif;
+color: white;
+}
+
+ a {color: black;
+   text-decoration: none;
+}
+
+a:hover{
+  background-color: green;
+}
+
+address{
+  border: thick double
+}
+
+img{
+  border:thick double
+
+}
+
+#name {
+color: black
+}
+
+#clubs{
+  color:black
+}
+
+#work{
+  color:black
+}
+
+#awards{
+  color:black
+}
+
+#schools{
+  color:black
+}
+
+.fancy{
+  border: dashed black
+}
+
+.cool{
+  font-variant: small-caps;
+}

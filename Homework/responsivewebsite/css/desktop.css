@@ -8,7 +8,7 @@ header{
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
-  background-color: pink;
+  background-color: none;
 }
 
 header nav ul{
@@ -35,6 +35,7 @@ main{
 main h1{
   text-align: center;
   padding: 100px;
+  background-color:pink;
 }
 
 main img{
@@ -51,17 +52,17 @@ footer{
 
 #grid1{
   display: grid;
-  background-color: pink;
+  background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 20px;
+ grid-gap: 100px;
  align-items:start;
     }
 
 #grid2{
   display: grid;
-  background-color: pink;
+  background-color: none;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 20px;
+ grid-gap: 100px;
  align-items:start;
         }
 
@@ -70,7 +71,8 @@ footer{
   margin: 0 auto;
   margin-top:50px;
   margin-bottom: 50px;
-  background-color: pink;
+  background-color: none;
+  grid-gap: 100px;
   grid-template-columns: auto auto;
   text-align: center;
     }
@@ -79,7 +81,40 @@ footer{
   display: grid;
   margin-top:50px;
   margin-bottom: 50px;
-  background-color: pink;
+  background-color: none;
   grid-template-columns: auto auto;
+  grid-gap: 100px;
   text-align: center;
+    }
+
+  @media only and screen and (max-width: 680px){
+
+    #grid6{
+    display: grid;
+    background-color: none;
+    grid-template-columns: auto;
+    text-align: center;
+    }
+
+    #grid1{
+    display: grid;
+    background-color: none;
+    grid-template-columns: auto;
+    text-align: center;
+    }
+
+
+    #grid2{
+    display: grid;
+    background-color: none;
+    grid-template-columns: auto;
+    text-align: center;
+    }
+    #grid3{
+    display: grid;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: none;
+    grid-template-columns: auto;
+    text-align: center;
     }

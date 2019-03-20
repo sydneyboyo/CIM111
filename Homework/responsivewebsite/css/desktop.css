@@ -35,7 +35,7 @@ main{
 main h1{
   text-align: center;
   padding: 100px;
-  background-color:pink;
+  background-color: pink;
 }
 
 main img{
@@ -52,17 +52,17 @@ footer{
 
 #grid1{
   display: grid;
-  background-color: none;
+  background-color: pink;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 100px;
+ grid-gap: 20px;
  align-items:start;
     }
 
 #grid2{
   display: grid;
-  background-color: none;
+  background-color: pink;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
- grid-gap: 100px;
+ grid-gap: 20px;
  align-items:start;
         }
 
@@ -71,8 +71,7 @@ footer{
   margin: 0 auto;
   margin-top:50px;
   margin-bottom: 50px;
-  background-color: none;
-  grid-gap: 100px;
+  background-color: pink;
   grid-template-columns: auto auto;
   text-align: center;
     }
@@ -81,11 +80,11 @@ footer{
   display: grid;
   margin-top:50px;
   margin-bottom: 50px;
-  background-color: none;
+  background-color: pink;
   grid-template-columns: auto auto;
-  grid-gap: 100px;
   text-align: center;
     }
+<<<<<<< HEAD
 
   @media only and screen and (max-width: 680px){
 
@@ -118,3 +117,5 @@ footer{
     grid-template-columns: auto;
     text-align: center;
     }
+=======
+>>>>>>> parent of d47dc08... class suggestions

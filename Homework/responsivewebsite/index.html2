@@ -219,3 +219,43 @@ Team: Manchester City
   </body>
 
 </html>
+
+
+
+
+
+THIS IS WHAT I HAD IN THE CSS THAT WAS NOT WORKING
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+  #grid6{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+  #grid1{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+
+  #grid2{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+  #grid3{
+  display: grid;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+}

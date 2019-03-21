@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 body{
   font-family: 'Permanent Marker', cursive;
 }
@@ -85,36 +87,3 @@ footer{
   grid-template-columns: auto auto;
   text-align: center;
   }
-
-
-  @media only and screen and (max-width: 680px){
-
-    #grid6{
-    display: grid;
-    background-color: none;
-    grid-template-columns: auto;
-    text-align: center;
-    }
-
-    #grid1{
-    display: grid;
-    background-color: none;
-    grid-template-columns: auto;
-    text-align: center;
-    }
-
-
-    #grid2{
-    display: grid;
-    background-color: none;
-    grid-template-columns: auto;
-    text-align: center;
-    }
-    #grid3{
-    display: grid;
-    margin-top:50px;
-    margin-bottom: 50px;
-    background-color: none;
-    grid-template-columns: auto;
-    text-align: center;
-    }

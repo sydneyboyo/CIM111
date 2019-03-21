@@ -259,3 +259,40 @@ THIS IS WHAT I HAD IN THE CSS THAT WAS NOT WORKING
   text-align: center;
   }
 }
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  #grid6{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+  #grid1{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+
+  #grid2{
+  display: grid;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+
+  #grid3{
+  display: grid;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: none;
+  grid-template-columns: auto;
+  text-align: center;
+  }
+}

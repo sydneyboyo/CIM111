@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <title> How To Website </title>
+
+<style>
+
+body{
+text-align: center;
+}
+
+h1{
+background-color: powderblue;
+font-family: 'Permanent Marker', cursive;
+}
+
+ol {
+  list-style-type: none;
+}
+
+footer{
+  background-color: powderblue;
+  font-family: 'Permanent Marker', cursive;
+}
+
+</style>
+
+  </head>
+
+  <body>
+
+<header> <h1 id="click2"> How to Make A Paper Airplane </h1> </header>
+
+<p> Below are the materials, steps, and photos on how to make a (very basic) paper airplane. </p>
+
+<div id="replaceText">
+<h1 id="click3"> Materials </h1>
+</div>
+
+<ol>
+<li> Hands </li>
+<li> A Piece of Paper </li>
+<li> Basic Folding Skills </li>
+</ol>
+
+  <h1 id="click1"> Steps </h1>
+
+<h3> First </h3>
+<p> Fold the paper in half (hot dog style). </p>
+<img src="images/airplane.jpg" width="250">
+<img src="images/airplane3.jpg" width="250">
+
+<h3> Second </h3>
+<p> Unfold your paper. </p>
+<img src="images/airplane4.jpg" width="250">
+<img src="images/airplane5.jpg" width="250">
+
+<h3> Third </h3>
+<p>  Fold two corners of the paper into the center of the paper. </p>
+<img src="images/airplane7.jpg" width="250">
+<img src="images/airplane6.jpg" width="250">
+
+<h3> Fourth </h3>
+<p> Fold the paper in half again (still hot dog style). </p>
+<img src="images/airplane10.jpg" width="250">
+<img src="images/airplane9.jpg" width="250">
+
+<h3> Fifth </h3>
+<p> Fold the top half down on both sides of the paper.</p>
+<img src="images/airplane12.jpg" width="250">
+<img src="images/airplane13.jpg" width="250">
+
+<footer>  <h3> This Website Was Created By: Sydney Boyo</h3>  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="javascript/js/jquery.js">
+
+$(document).ready(function(){
+
+$("#click1").click(function(){
+$("p").hide();
+});
+
+$("#click2").click(function(){
+  $("h1").css("background-color","pink");
+});
+
+$("#click3").click(function(){
+$("#replaceText").html("<h1> What You Need </h1>");
+});
+
+});
+
+
+ </script>
+
+  </body>
+
+</html>

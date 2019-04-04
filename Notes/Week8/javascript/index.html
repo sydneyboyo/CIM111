@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Intro to Java Script </title>
+  </head>
+  <body>
+
+<h1 id="click1"> Click Here For More Info </h1>
+<h1 id="click2"> Click here to show </h1>
+<h1 id="toggle"> Toggle Info </h1>
+<p id="toggleinfo"> This info is being toggled </p>
+<p id="hideinfo"> This Is More Info </p>
+
+<ul>
+  <li id="info1"> info 1 </li>
+  <li id-"info2"> info 2</li>
+    <li id="info3"> info 3</li>
+</ul>
+
+<h1 id+"mouseoverout"> Mouse over and out to see a css change </h1>
+<!-- Step 1: add jquery, this is a relative link-->
+<script type="text/javascript" src="js/jquery.js"> </script>
+
+<!-- can also use an absolute link
+<script src="insert link"> </script> -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+  //ALL jquery code goes below
+
+$("#hideinfo").hide(); //hides the id hideinfo
+
+$("#click1").click(function(){
+$("#hideinfo").show();
+}); //end of click 1
+
+$("mouseoverout").mouseenter(function(){
+  $("#mouseoverout").css("color", "grey");
+});
+
+$("#mouseoverout").mouseleave(function(){
+  $("mouseoverout").css("color", "black");
+});
+
+$("click2").click(function(){
+
+});
+
+$("#toggle").click(function(){
+  $("#toggleinfo").toggle();
+
+});
+
+$("#info1").click(function(){
+  $("#replaceText").html("This is info 1");
+});
+
+  //End of jquery code
+});
+</script>
+
+  </body>
+</html>

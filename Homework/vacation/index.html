@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+<title>vaction folder</title>
+<link rel="stylesheet" type="text/css" href="css/desktop.css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+</head>
+
+  <body>
+
+    <header> <h1> My Vacations Around the Country and World </h1> </header>
+
+<h2 id="click1"> Click Here For Background Information </h2>
+    <p id="hideInfo" class="info"> On this website you can find information about vacations I have been on.
+      I include information and photos on both my domestic and international travel experiences,
+      as well of a list of places I would like to visit in the future. </p>
+
+    <h2 class="travel"> Domestic Travel </h2>
+
+    <p> This is a list of my top 3 places that I have traveled to in the United States. </p>
+
+    <ul>
+    <li> Las Vegas, Nevada </li>
+      <li> Chicago, Illinois</li>
+        <li> Washington, D.C.</li>
+      </ul>
+
+    <h2 class="travel"> International Travel </h2>
+
+    <p> List of my top 3 places that I have traveled to around the world. </p>
+
+    <ul>
+    <li>France</li>
+      <li>Thailand</li>
+        <li>Singapore</li>
+      </ul>
+
+    <h2 class="travel"> Bucket List Places </h2>
+
+    <p> List of the top 5 places that I want to visit in the future. </p>
+
+    <ul>
+      <li>Argentina</li>
+      <li>Japan</li>
+      <li>Morocco</li>
+      <li>Australia</li>
+      <li>Portugal</li>
+      </ul>
+
+      <h2 class="travel">  Photo Gallery </h2>
+      <p> These are my personal photos, taken by me of places I have been. </p>
+
+<div id="grid">
+<div class="photo"> <img src="images/france.jpg" width="300"> </div>
+<div class="photo"> <img src="images/thailand.jpg" width="300"> </div>
+<div> <img src="images/singapore.jpg" width="300"> </div>
+<div> <img src="images/haiti.jpg" width="300"> </div>
+<div> <img src="images/lakemead.jpg" width="300"> </div>
+<div class="photo"> <img src="images/thailand2.jpg" width="300"> </div>
+<div class="photo"> <img src="images/bali.jpg" width="300"> </div>
+<div class="photo"> <img src="images/malay.jpg" width="300"> </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$("#click1").click(function(){
+  $("#hideInfo").show();
+});
+
+$(".travel").highlight("highlight");
+
+
+ });
+</script>
+
+
+  </body>
+
+</html>

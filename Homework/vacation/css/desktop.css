@@ -1,0 +1,36 @@
+.highlight {
+    background-color: white;
+}
+
+#grid{
+  display: grid;
+  margin-top:50px;
+  margin-bottom: 50px;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 100px;
+  grid-column-gap: 50px;
+  text-align: center;
+}
+
+.photo{
+  transform: rotate(90deg);
+}
+
+body{
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+h1{
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+
+h2{
+margin-top: 100px;
+background-color: aquamarine;
+}
+
+ul li{
+  list-style: none;
+}

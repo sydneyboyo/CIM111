@@ -15,8 +15,8 @@
 
     <header> <h1> My Vacations Around the Country and World </h1> </header>
 
-<h2 id="click1"> Click Here For Background Information </h2>
-    <p id="hideInfo" class="info"> On this website you can find information about vacations I have been on.
+<h2 class="travel"> Background Information </h2>
+    <p> On this website you can find information about vacations I have been on.
       I include information and photos on both my domestic and international travel experiences,
       as well of a list of places I would like to visit in the future. </p>
 
@@ -24,7 +24,7 @@
 
     <p> This is a list of my top 3 places that I have traveled to in the United States. </p>
 
-    <ul>
+    <ul class="places">
     <li> Las Vegas, Nevada </li>
       <li> Chicago, Illinois</li>
         <li> Washington, D.C.</li>
@@ -34,7 +34,7 @@
 
     <p> List of my top 3 places that I have traveled to around the world. </p>
 
-    <ul>
+    <ul class="places">
     <li>France</li>
       <li>Thailand</li>
         <li>Singapore</li>
@@ -44,7 +44,7 @@
 
     <p> List of the top 5 places that I want to visit in the future. </p>
 
-    <ul>
+    <ul class="places">
       <li>Argentina</li>
       <li>Japan</li>
       <li>Morocco</li>
@@ -67,21 +67,18 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript/jquery.js"> </script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
 <script type="text/javascript">
 
 $(document).ready(function(){
 
-$("#click1").click(function(){
-  $("#hideInfo").show();
-});
-
-$(".travel").highlight("highlight");
+$(".places").effect( "highlight", {color:"lightblue"}, 3000 );
+$(".travel").effect("slide", 5000);
 
 
  });
 </script>
-
 
   </body>
 

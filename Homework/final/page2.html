@@ -3,29 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>West Coast Rap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="css/parallax-scroll.css">
     <link rel="stylesheet" href="css/page2.css">
+    <script src="javascript/jquery.parallax-scroller.js"> </script>
   </head>
 
 
   <body>
-<h1> West Coast Rappers and Rap Groups </h1>
 
-<ul>
-<li> Ice T </li>
-<li> Eazy E </li>
-<li> N.W.A </li>
-<li> Ice Cube</li>
-<li> Fila Fresh Crew</li>
-<li> The D.O.C.</li>
-<li> MC Ren</li>
-<li> Dr. Dre</li>
-<li> Snoop Doggy Dog</li>
-<li> Tupac Shakur</li>
-<li> Warren G</li>
-<li> Nate Dog</li>
-<li> Thaa Dogg Pound</li>
-<li> Vanilla Ice</li>
-</ul>
+<div class="list">
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names"> East Coast Rappers </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names">  Sean "Puff Daddy" Combs</h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names">  Run-DMC </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names">  Notorious B.I.G. </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names"> Jay-Z </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names">  Eazy E</h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names">  Tim Dog </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names"> Craig Mack </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names"> The Wu-Tang Clan </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+  <h1 class="names">  Salt-n-Pepa </h1>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h1 class="names"> The Beastie Boys </h1>
+  </div>
+
+
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+    $(".list").parallaxScroller({
+     parallaxSpeed: 3,
+     tilt: -2,
+     parallaxOnMobile: true,
+     startPosition: "70%",
+     retainNativeScroll: true
+   });
+
+   });
+  </script>
+
+
   </body>
 
 

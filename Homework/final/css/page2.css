@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.list-item{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 200px;
+}
+
+.names{
+  color: white;
+}

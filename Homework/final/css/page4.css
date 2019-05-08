@@ -1,0 +1,32 @@
+header h1{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+body{
+  font-family: 'Audiowide', cursive;
+}
+
+h2{
+margin-bottom: 90px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.nav{
+  list-style: none;
+}
+
+li{
+  display: inline;
+}
+
+#mapandmusic{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 100px;
+}
+
+#music{
+margin-bottom: 50px;
+}

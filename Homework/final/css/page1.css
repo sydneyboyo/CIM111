@@ -1,0 +1,30 @@
+footer{
+  list-style: none;
+}
+
+li{
+  display: inline;
+}
+
+body{
+  font-family: 'Audiowide', cursive;
+}
+
+
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.youtube{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#ptag{
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

@@ -1,0 +1,33 @@
+<div class="list">
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h3> <a class="names"> East Coast Rappers </a> </h3>
+  </div>
+  <div>
+  <iframe src="https://www.google.com/maps/d/embed?mid=1-XiOWIw361pvHgtwwueCp_L502Jh5XzN" width="640" height="480"></iframe>
+  </div>
+  <div class="list-item" data-ps-bg="images/newyork.jpg">
+    <h3> <a class="names">  Sean "Puff Daddy" Combs, Run-DMC, Notorious B.I.G., Jay-Z, Eazy E, Tim Dog, Craig Mack, The Wu-Tang Clan, Salt-n-Pepa, The Beastie Boys  </a></h3>
+  </div>
+  <div>
+  <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/east-coast-hip-hop-essentials/pl.60f0ddb0b1ca423d9c30b5aa8f9d5f94?app=music"></iframe>
+</div>
+
+
+
+<body> <center>
+
+<h1> East Coast Rappers </h1>
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1-XiOWIw361pvHgtwwueCp_L502Jh5XzN" width="640" height="480"></iframe>
+
+<h1>Sean "Puff Daddy" Combs, Run-DMC, Notorious B.I.G., Jay-Z, Eazy E, Tim Dog, Craig Mack, The Wu-Tang Clan, Salt-n-Pepa, The Beastie Boys </h1>
+
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/east-coast-hip-hop-essentials/pl.60f0ddb0b1ca423d9c30b5aa8f9d5f94?app=music"></iframe>
+
+
+</center> </body>
+
+<link rel="stylesheet" href="css/desktop.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+<link rel="stylesheet" href="css/fullpagenav.css">
+<script src="javascript/jquery.fullpagenav.js"> </script>

@@ -1,15 +1,26 @@
 body {
   text-align: center;
   margin: 0 auto;
+  font-family: 'Audiowide', cursive;
+}
+
+footer{
+  list-style: none;
+  padding-top: 50px;
+}
+
+li{
+  display: inline;
+}
+
+body{
+  font-family: 'Audiowide', cursive;
 }
 
 .list-item{
   margin-top: 50px;
   margin-bottom: 50px;
   height: 200px;
-}
-
-.list-item{
   font-size: 34px;
   text-transform: uppercase;
   font-weight: bold;
@@ -19,4 +30,8 @@ body {
   padding: 70px;
   background: rgba(0,0,0,0.5);
   display: block;
+}
+
+#names{
+  background-color: none;
 }

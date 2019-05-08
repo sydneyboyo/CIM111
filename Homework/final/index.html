@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
 
   <head>
@@ -8,27 +9,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
 <link rel="stylesheet" href="css/fullpagenav.css">
 <script src="javascript/jquery.fullpagenav.js"> </script>
-
-
-
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   </head>
-
 
   <body>
 
       <ul class="nav">
         <li data-link="page1.html"> <img src="images/rap.jpg"> <h1> History </h1> </li>
-        <li data-link="page3.html"> <img src="images/la.jpg"> <h1> West Coast </h1> </li>
-        <li data-link="page2.html"> <img src="images/newyork.jpg"> <h1> East Coast </h1> </li>
+        <li data-link="page2.html"> <img src="images/la.jpg"> <h1> West Coast </h1> </li>
+        <li data-link="page3.html"> <img src="images/newyork.jpg"> <h1> East Coast </h1> </li>
         <li data-link="page4.html"> <img src="images/drake.jpg"> <h1> Today </h1></li>
-        <li data-link="page5.html"> <img src="images/creator.jpg"> <h1> Creator </h1> </li>
       </ul>
 
       <script type="text/javascript">
 
       $(document).ready(function(){
         $(".nav").fullpagenav({
-          columns: 5,
+          columns: 4,
           selector: "> li",
           hover_size: "30%",
           animateDuration: 500,

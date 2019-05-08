@@ -2,70 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>East Coast Rap</title>
+    <title>West Coast Rap</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
     <link rel="stylesheet" href="css/parallax-scroll.css">
     <link rel="stylesheet" href="css/page2.css">
     <script src="javascript/jquery.parallax-scroller.js"> </script>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   </head>
 
 
-  <body>
-
-<div class="list">
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> East Coast Rappers </a> </h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names">  Sean "Puff Daddy" Combs</a></h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3><a class="names">  Run-DMC </a></h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> Notorious B.I.G. </a> </h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> Jay-Z </a> </h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> Eazy E </a></h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-  <h3> <a class="names"> Tim Dog </a> </h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> Craig Mack </a> </h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> The Wu-Tang Clan </a></h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-  <h3> <a class="names">  Salt-n-Pepa </a></h3>
-  </div>
-  <div class="list-item" data-ps-bg="images/newyork.jpg">
-    <h3> <a class="names"> The Beastie Boys </a></h1>
-  </div>
+    <body>
 
 
-  <script type="text/javascript">
+      <div class="list">
+        <div class="list-item" data-ps-bg="images/la.jpg">
+          <h1> West Coast Rappers </h1>
+        </div>
+        <div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1-XiOWIw361pvHgtwwueCp_L502Jh5XzN" width="640" height="480"></iframe>
+        </div>
+        <div class="list-item" data-ps-bg="images/la2.jpg">
+          <h3 id="names">  Tupac Shakur, Dr. Dre, Ice Cube, Ice T, Eazy E, The D.O.C., Snoop Doggy Dog,
+          N.W.A., Warren G, Nate Dog, Fila Fresh Crew, MC Ren, Tha Dogg Pound, Vanilla Ice</h3>
+        </div>
+        <div id="music">
+          <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/90s-west-coast-rap/pl.u-vxy66DBCPKDJoa?app=music"></iframe>
+        </div>
 
-  $(document).ready(function(){
-    $(".list").parallaxScroller({
-     parallaxSpeed: 3,
-     tilt: -2,
-     parallaxOnMobile: true,
-     startPosition: "70%",
-     retainNativeScroll: true
-   });
+        <script type="text/javascript">
 
-   });
-  </script>
+        $(document).ready(function(){
+          $(".list").parallaxScroller({
+           parallaxSpeed: 3,
+           tilt: -2,
+           parallaxOnMobile: true,
+           startPosition: "70%",
+           retainNativeScroll: true
+         });
 
-
-  </body>
-
+         });
+        </script>
 
 
+      <footer>  <ul class="nav">
+          <li> <a href="index.html"> Home </a> </li>
+        </ul>
+      </footer>
+
+    </body>
 
 </html>

@@ -1,15 +1,15 @@
+footer{
+  list-style: none;
+}
+
+li{
+  display: inline;
+}
+
 body{
   font-family: 'Audiowide', cursive;
 }
 
-header{
-  margin-top: 50px;
-  margin-bottom: 75px;
-}
-
-h1{
-  background-color: #D5F5CD;
-}
 
 p{
   padding-top: 20px;
@@ -21,28 +21,10 @@ p{
 .youtube{
 padding-top: 20px;
 padding-bottom: 20px;
-background-color: #D5F5CD;
-}
-
-#timeline{
-  background-color: #D5F5CD;
 }
 
 #ptag{
   padding-bottom: 100px;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-footer{
-  list-style: none;
-  display: inline;
-}
-
-footer ul li{
-  list-style: none;
-}
-
-@media (max-width: 800px){
-
 }

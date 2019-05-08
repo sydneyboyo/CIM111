@@ -30,16 +30,3 @@ li{
 #music{
 margin-bottom: 50px;
 }
-
-@media (max-width: 800px){
-
-#mapandmusic{
-  display: none;
-}
-
-header h1{
-  background-color: #D5F5CD;
-}
-
-
-}
